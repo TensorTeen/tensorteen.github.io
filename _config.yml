@@ -217,7 +217,7 @@ collections:
 # Defaults
 defaults:
   # _posts
-    - scope:
+  - scope:
       path: ""
       type: course_projects
     values:
