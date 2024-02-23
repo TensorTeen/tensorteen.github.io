@@ -1,0 +1,30 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+---
+
+{% include base_path %}
+
+<h2>Course Projects</h2>
+{% for post in site.course_projects %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h2>Academic Projects</h2>
+{% for post in site.academic_projects %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h2>Competitions</h2>
+{% for post in site.competitions %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h2>Paper Implementations</h2>
+<!-- {% for post in site.implementations %}
+  {% include archive-single.html %}
+{% endfor %} -->
+<ul>
+</ul> 
