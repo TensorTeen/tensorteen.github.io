@@ -12,13 +12,13 @@ redirect_from:
 <h2>Education</h2>
 
 * Bachelor of Technology, Mechanical Engineering, Indian Institute of Technology Madras (2026)
-  - **Courses**: Introduction to scientific computing, Probability & Statistics*, Series and Matrices Introduction to Econometrics*, Differential Equations, Multi-Variable Calculus, Kinematics and Dynamics of Machinery, CAD, Manufacturing Processes*, Measurement, Instrumentation & Communication* Materials and Design* Applied Thermal Engineering*
+  - **Courses**: Introduction to scientific computing, Machine Learning Specialization, Algorithms Specialization, Deep Learning Specialization, Probability & Statistics, Series and Matrices Introduction to Econometrics, Differential Equations, Multi-Variable Calculus, Kinematics and Dynamics of Machinery, CAD, Manufacturing Processes, Measurement, Instrumentation & Communication* Materials and Design* Applied Thermal Engineering
 
 * Senior Secondary, SBOA School and Junior College (2022)
 * Secondary, SBOA School and Junior College (2020)
 
 <h2> Achievements:</h2>
-* Joint Entrance ExaminatioN
+* Joint Entrance Examination
     - Achieved an All India Rank of 1849 among 1.5+ lakh students in the Joint Entrance Examination Advanced (JEE Advanced) in 2022.
     - Achieved an All India Rank of 1424 among 10+ lakh students in the Joint Entrance Examination Mains (JEE Mains) in 2022.
     - Achieved a score of 312/390 in BITSAT 2022 and secured a rank of 194 in TNEA (among ∼200,000 Students)
