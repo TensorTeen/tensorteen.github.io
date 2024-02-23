@@ -217,58 +217,59 @@ collections:
 # Defaults
 defaults:
   # _posts
-  - scope:
+    - scope:
       path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
+      type: course_projects
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # _academic_projects
   - scope:
       path: ""
-      type: publications
+      type: academic_projects
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _competitions
   - scope:
       path: ""
-      type: portfolio
+      type: competitions
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _implementations
+  - scope:
+      path: ""
+      type: implementations
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _professional_experience
+  - scope:
+      path: ""
+      type: professional_experience
     values:
       layout: single
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # _research_experience
   - scope:
       path: ""
-      type: talks
+      type: research_experience
     values:
-      layout: talk
+      layout: single
       author_profile: true
       share: true
+      comment: true
 
 
 # Sass/SCSS
