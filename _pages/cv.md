@@ -11,58 +11,36 @@ redirect_from:
 
 <h2>Education</h2>
 
-* Bachelor of Technology, Mechanical Engineering, Indian Institute of Technology Madras (2024)
-  - **Courses**: Deep Learning for Imaging, Multi-Armed Bandits, Pattern Recognition and Machine Learning, Signal Processing, Stochastic Processes, Modal Analysis, Computational Heat and Fluid Flow, Finite Element Analysis
-* Senior Secondary, National Institute of Open Schooling (2020)
-* Secondary, National Institute of Open Schooling (2020)
+* Bachelor of Technology, Mechanical Engineering, Indian Institute of Technology Madras (2026)
+  - **Courses**: Introduction to scientific computing, Probability & Statistics*, Series and Matrices Introduction to Econometrics*, Differential Equations, Multi-Variable Calculus, Kinematics and Dynamics of Machinery, CAD, Manufacturing Processes*, Measurement, Instrumentation & Communication* Materials and Design* Applied Thermal Engineering*
 
-<h2>Scholastic Achievements</h2>
+* Senior Secondary, SBOA School and Junior College (2022)
+* Secondary, SBOA School and Junior College (2020)
 
-* International Olympiad for Informatics
-    - Recognised among India's top 25 students in the International Olympiad for Informatics conducted by the Indian Association for Research in Computing Science in 2018.
-* KVPY Fellowship
-    - Honoured with the Kishore Vaigyanik Protsahan Yojana (KVPY) Fellowship in the SA category, securing an All India Rank of 238 in 2019.
-* Indian National Mathematics Olympiad
-    - Attained a position among India's top 75 students in the Indian National Mathematics Olympiad conducted by the Homi Bhabha Centre for Science Education in 2019.
-* International Collegiate Programming Contest
-    - Earned the first and third positions in ACM ICPC for schools, in the year 2018 and 2019 respectively.
-* Joint Entrance Examination (Advanced)
-    - Achieved an All India Rank of 1684 among 1.5+ lakh students in the Joint Entrance Examination Advanced (JEE Advanced) in 2020.
+<h2> Achievements:</h2>
+* Joint Entrance ExaminatioN
+    - Achieved an All India Rank of 1849 among 1.5+ lakh students in the Joint Entrance Examination Advanced (JEE Advanced) in 2022.
+    - Achieved an All India Rank of 1424 among 10+ lakh students in the Joint Entrance Examination Mains (JEE Mains) in 2022.
+    - Achieved a score of 312/390 in BITSAT 2022 and secured a rank of 194 in TNEA (among ∼200,000 Students)
+    - Felicitated by the Principal as the School Topper in Class XII; highest marks in Computer Science in CBSE
+
+<h2>Achievements Co-Scholostic</h2>
+- Runner-up, Py.Hack 2022, Built a pipeline for Sentimental Analysis of Human Reviews. PyHack was an Hackathon conducted by Technical Society of IIT Madras in collaboration with Cohesive. 2022
+- Top 20 Projects at the National level , The Atal Innovation Mission organized the Atal Innovation Marathon 2018, during which our project, Stacked Agriculture, achieved recognition by being chosen among the top 20 projects at the national level in the field of agriculture. 
 
 <h2>Positions of Responsibility</h2>
 
-* Convener, InterIIT Tech Meet 12.0
-* Head, Analytics Club
-    - Executed 7 projects spanning various domains with real-life impacts in Healthcare, Automation and
-    Language.
-    - Led the AI/ML Contingent at InterIIT Tech Meet 11.0, securing 1 Gold and 2 Bronze medals.
-    - Launched Paper Archive and IITM Model Zoo, providing summaries and code for 40+ research papers.
-* Coordinator, Analytics Club
-    - Conducted sessions on Deep Learning throughout the year to expose and inspire the student body.
-* Coordinator, Events, Shaastra
-    - Co-designed a Reinforcement Learning based event from scratch, a complete information two agent environment.
-* Academic Strategist, Avanti Fellows
-    - Spear-headed a Mentor team of 45 students and coordinated a Mentee team of 52 students of JNV Pondicherry.
+* Project Member, AI Club, CFI
+- Part of a team of 5 students working on Project OptiWing, Optimising airfoils for given performance characteristics.
+- Worked under Prof. Nagabhushana Rao Vadlamani and Prof. Bharath Govindarajan of the Aerospace Department of IITM.
+- Presented Project OptiWing at Research Conclave 2023 of IITM to 5000+ professors, industry professionals and researchers.
+* Manager, MnPR, E-Cell, IIT Madras
+- Led a team of 12 AMs in handling social media for Entrepreneurship-Cell(E-Cell) of IIT Madras and doubled the combined
+follower count to over 50K followers. Mentored more than 20 Rural students on Entrepreneurship
+- Organized 3 large-scale events aimed at sustainability with PLM-HPCL, IESA and achieved a 10x increase in registrations
+- Cracked 6 deals for publicity with organisations like The Hindu, Inc42, IESA, College Dunia, Radio Mirchi
+- Facilitated association with Carbon Zero Challenge; enabling INR 1.5 Cr prototype funding for sustainability start-ups
 
-
-<h2>Teaching</h2>
-
-<h3>TA-ship</h3>
-
-* Introduction to Scientific Programming (ID2090)
-    - Facilitated tutorial sessions and assessed assignments for a specialised course aimed at select freshmen.
-* System Commands (IITM online BSc)
-    - Devised, crafted, and tested course assignments, along with creating customised automatic evaluation scripts.
-
-<h3>Mentoring</h3>
-
-* Saathi Mentor
-* Avanti Mentor
-
-<h3>Workshops</h3>
-
-* CFI Summer School
-* CFI Expansion Program - TKM Workshop
-* Analytics Club Epochs
-* Shaastra Junior Workshop
-* Shaastra Workshops
+<h2>Technical Skills</h2>
+- Programming Languages: Python, C/C++, SQL, Matlab
+- Tools and Frameworks: Sklearn, Pytorch, OpenAI, Gemini API, TensorFlow Keras, LaTeX, Bash, Hugging Face, GitHub, NumPy, SciPy, Matplotlib, Seaborn, Sage Math, Docker, AWS, GCP
