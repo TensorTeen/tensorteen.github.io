@@ -1,10 +1,10 @@
 ---
-title: "User Personalization for Link Recommendation"
+title: "Project OptiWing"
 collection: experience
-permalink: /publication/microsoft_intern_2
+permalink: /publication/AI_club_Project Member
 excerpt: 'A Re-ranking strategy for improving recommendations for the User'
-venue: 'MSAI, Microsoft India'
+venue: 'Artificial Intelligence Club, Center for Innovation'
 ---
-
-- Proposed a re-ranking strategy for improving top-topics obtained from the AI Graph of the user for improving personalized recommendations of shared web-links.
-- Leveraged an ensembling of dense and spare embeddings to cluster and de-noise followed by a temporal aggregator to build the interest vector of a user.
+- Part of a team of 5 students working on Project OptiWing, Optimising airfoils for given performance characteristics.
+- Worked under Prof. Nagabhushana Rao Vadlamani and Prof. Bharath Govindarajan of the Aerospace Department of IITM.
+- Presented Project OptiWing at Research Conclave 2023 of IITM to 5000+ professors, industry professionals and researchers
