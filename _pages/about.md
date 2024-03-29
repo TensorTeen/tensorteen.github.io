@@ -10,8 +10,8 @@ redirect_from:
 ---
 
 <!-- {% include base_path %} -->
- I am a sophomore at the department of Mechanical Engineering at **Indian Institute of Technology, Madras**. My research interests lie in the intersection of mechanical engineering and Artificial Intelligence. More specifically, my intrests lie in leveraging Deep Learning and Generative AI for classical Enginerring problems.
+I am a sophomore at the Department of Mechanical Engineering at the Indian Institute of Technology, Madras. My research interests lie in the intersection of mechanical engineering and Artificial Intelligence. More specifically, my interests lie in leveraging Deep Learning and Generative AI for classical Engineering problems.
 
-**Research Interests**: Generative AI, Mechanical Engineering, Deep Learning, Computational Mechanics
+**Research Interests**: Generative AI, Mechanical Engineering, Deep Learning, Computational Mechanics, Quantitative Finance
 
 You can reach out to me through email.
