@@ -2,7 +2,6 @@
 title: "Project OptiWing"
 collection: projects
 permalink: /projects/optiwing
-excerpt: ''
 course: 'Artificial Intelligence Club'
 ---
 
