@@ -2,7 +2,7 @@
 title: "Project OptiWing"
 collection: projects
 permalink: /projects/optiwing
-course: 'Artificial Intelligence Club'
+course: 'Undergraduate Research'
 excerpt: ''
 ---
 
@@ -14,4 +14,4 @@ excerpt: ''
 - Implemented various papers based on Domain knowledge integration into deep learning like parameterization of airfoils
 - using Hicks-Henne Functions and achieved a reduction in computation time by 500%
 
-[Code]() \| [Report]()
+[Code](https://github.com/TensorTeen/Project-OptiWing) \| [Report]()
