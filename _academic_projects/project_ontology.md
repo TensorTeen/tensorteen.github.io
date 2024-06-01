@@ -3,7 +3,7 @@ title: "Accessing Knowledge Graph using Natural Language"
 collection: projects
 permalink: /projects/ontology
 excerpt: ''
-course: 'Undergraduate Research'
+course: 'Undergraduate Research, Prof. Phanikumar Gandham'
 ---
 
 - An ongoing project under the guidance of Prof. Gandham Phanikumar, Professor, Department of Metallurgical and Materials Engineering, Indian Institute of Technolgy Madras, 
