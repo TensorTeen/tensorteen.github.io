@@ -12,4 +12,4 @@ type: 'InterIIT Tech Meet 12.0, High Prep'
 - Implemented various frameworks on reasoning and thoughts and developed novel approaches based on Knowledge Graphs.
 - Developed novel code-based prompting techniques to reduce token size by 50% and achieved a BLeU score of 1
 
-[Code](https://github.com/TensorTeen/InterIIT-Tech-Meet-12.0-DevRev) \| [Report](https://arxiv.org/abs/2401.15724) \
+[Code](https://github.com/TensorTeen/InterIIT-Tech-Meet-12.0-DevRev) \| [Report](https://arxiv.org/abs/2401.15724) 
