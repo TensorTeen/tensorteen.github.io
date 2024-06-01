@@ -2,8 +2,8 @@
 title: "Project OptiWing"
 collection: projects
 permalink: /projects/optiwing
-course: 'Undergraduate Research'
-excerpt: 'Prof. Vadlamani Nagabushana Rao'
+course: 'Undergraduate Research, Prof. Vadlamani Nagabushana Rao'
+excerpt: ''
 ---
 
 - Part of a team of 5 students working on Project OptiWing, Optimising airfoils for given performance characteristics.
