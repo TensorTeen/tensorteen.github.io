@@ -1,3 +1,4 @@
+
 ---
 layout: archive
 title: "Background"
@@ -7,38 +8,65 @@ redirect_from:
   - /resume
 ---
 
-<!-- {% include base_path %} -->
+AKSHAY GOVIND S  
+(+91) 944-560-4248  
+me22b102@smail.iitm.ac.in  
+[Personal Site](https://tensorteen.github.io/)  
 
-<h2>Education</h2>
+## Education  
+**Dept. of Mechanical Engineering**, IIT Madras  
+Bachelor of Technology, Mechanical Engineering, 2022–2026 (expected)  
+- GPA: 9.72/10.00; Dept. Rank: 1/227  
+- Perfect 10 GPA in 3rd & 5th semesters  
+- JEE Mains Rank 1424; JEE Advanced Rank 1849  
 
-* Bachelor of Technology, Mechanical Engineering, Indian Institute of Technology Madras (2026)
-  - **Courses**: Introduction to scientific computing, Machine Learning Specialization, Algorithms Specialization, Deep Learning Specialization, Probability & Statistics, Series and Matrices Introduction to Econometrics, Differential Equations, Multi-Variable Calculus, Kinematics and Dynamics of Machinery, CAD, Manufacturing Processes, Measurement, Instrumentation & Communication* Materials and Design* Applied Thermal Engineering
+## Publications  
+1. **Akshay Govind Srinivasan**, Ryan George et al., “Enhancing Financial RAG using Agentic AI and Multi-HyDE: A Novel Approach to Information Retrieval and Hallucination Reduction,” Conf. on Language Modelling (Under Review), 2025.  
+2. Santhosh G S, **Akshay Govind Srinivasan** et al., “IndiCASA: A Dataset and Bias Evaluation Framework for LLMs Using Contrastive Embedding Similarity in the Indian Context,” AAAI/ACM Conf. on AI, Ethics, & Society (Under Review), 2025. Advisor: Prof. Balaraman Ravindran, Dept. of Data Science & AI, IIT Madras  
+3. Sahil Girhepuje, Siva Sankar Sajeev, **Akshay Govind Srinivasan** et al., “RE-GAINS & EnChAnT: Intelligent Tool Manipulation Systems for Enhanced Query Responses,” Under Review at ∗CL Conference, 2024.  
+ 
 
-* Senior Secondary, SBOA School and Junior College (2022)
-* Secondary, SBOA School and Junior College (2020)
+## Patents  
+1. Ruthwik Chivukula, **Akshay Govind Srinivasan** et al., “Gradient-based Regularisation for Inverse Design of Airfoils Using Deep Learning,” Application No. 202441093218, 2024.  
+2. **Akshay Govind Srinivasan**, Ryan Jacob George et al., “Systems and Methods for Agentic-Based Retrieval-Augmented Generation,” Application No. 202541024879, 2025.  
+3. Sahil Girhepuje, Siva Sankar Sajeev, **Akshay Govind Srinivasan** et al., “Data Generation Techniques for Tool-Based LLM Applications,” Application No. 202441079904, 2024.  
 
-<h2> Achievements:</h2>
-- Achieved an All India Rank of 1849 among 1.5+ lakh students in the Joint Entrance Examination Advanced (JEE Advanced) in 2022.
-- Achieved an All India Rank of 1424 among 10+ lakh students in the Joint Entrance Examination Mains (JEE Mains) in 2022.
-- Achieved a score of 312/390 in BITSAT 2022 and secured a rank of 194 in TNEA (among ∼200,000 Students)
-- Felicitated by the Principal as the School Topper in Class XII; highest marks in Computer Science in CBSE
+## Professional Experience  
+**Media and Data Science Research Intern**, Adobe Inc., Noida, India  
+May 2025 – Present  
+- Developing scalable agentic pipelines for video extraction  
+- Exploring behavior simulation in video extraction  
 
-<h2>Achievements Co-Scholostic</h2>
-- Runner-up, Py.Hack 2022, Built a pipeline for Sentimental Analysis of Human Reviews. PyHack was an Hackathon conducted by Technical Society of IIT Madras in collaboration with Cohesive. 2022
-- Top 20 Projects at the National level , The Atal Innovation Mission organized the Atal Innovation Marathon 2018, during which our project, Stacked Agriculture, achieved recognition by being chosen among the top 20 projects at the national level in the field of agriculture. 
+**AI Engineering Intern**, Sarvam.AI, Chennai, India  
+Jun 2024 – Jul 2024  
+- Built scalable agentic QA pipelines for healthcare  
+- Developed multi-agent systems for conversation data generation  
+- Conducted red-teaming against data-poisoning threats  
+- Delivered a PoC pipeline to 500+ users  
 
-<h2>Positions of Responsibility</h2>
+## Awards and Prizes  
+- Mrs Jayashree Ananth Prize (Best Academic Record Sem 3 & 4), 2025  
+- Kiran Award (Best Academic Student), Indian Soc. of Non-Destructive Testing, 2024  
+- Sakura Science Fellowship, JST Japan, 2024  
 
-* Project Member, AI Club, CFI
-    - Part of a team of 5 students working on Project OptiWing, Optimising airfoils for given performance characteristics.
-    - Worked under Prof. Nagabhushana Rao Vadlamani and Prof. Bharath Govindarajan of the Aerospace Department of IITM.
-    - Presented Project OptiWing at Research Conclave 2023 of IITM to 5000+ professors, industry professionals and researchers.
-* Manager, MnPR, E-Cell, IIT Madras
-    - Led a team of 12 AMs in handling social media for Entrepreneurship-Cell(E-Cell) of IIT Madras and doubled the combined follower count to over 50K followers. Mentored more than 20 Rural students on Entrepreneurship
-    - Organized 3 large-scale events aimed at sustainability with PLM-HPCL, IESA and achieved a 10x increase in registrations
-    - Cracked 6 deals for publicity with organisations like The Hindu, Inc42, IESA, College Dunia, Radio Mirchi
-    - Facilitated association with Carbon Zero Challenge; enabling INR 1.5 Cr prototype funding for sustainability start-ups
+## Projects  
+- **High-Speed Depth Prediction in Low-Light Scenes**, SPAD imaging (Ongoing under Prof. Kaushik Mitra), May 2025–Present  
+- **Meta-Lens Defect Characterization**, Data-driven (Ongoing under Prof. Prabhu Rajagopal), Jan 2025–Present  
+- **Stable Diffusion XL Inference Framework**, Feb 2025–May 2025  
+- **GeoAwareGPT**, Geo-spatial data for India (Top 30/3,464 at BAH 2024), May 2024  
+- **OntoLLM**, NL interface for ontology reasoning (Apr 2024–Jun 2024)  
+- **PolyGapFormer**, Polymer band-gap prediction (Top 3, ML for Band Gap), Feb 2024  
+- **PrecisionCredit**, Tree-based risk model (Top 10% at Convolve 2024), Nov 2023  
+- **Process Optimization for Aspherical Lens**, Course Project ME2300, Apr 2024  
 
-<h2>Technical Skills</h2>
-- **Programming Languages** : Python, C/C++, SQL, Matlab
-- **Tools and Frameworks** : Sklearn, Pandas, Pytorch, OpenAI, Gemini API, TensorFlow Keras, LaTeX, Bash, Hugging Face, GitHub, NumPy, SciPy, Matplotlib, Seaborn, Sage Math, Docker, AWS, GCP
+## Courses Taken  
+Advanced Topics in AI, Modern Computer Vision, Reinforcement Learning, Computational Fluid Dynamics, Computational Heat & Fluid Flow, Control Systems, Automation in Manufacturing, Heat Transfer, Energy Conversion Systems, Foundations of Fluid Dynamics  
+
+## Technical Skills  
+- **Programming:** Python, C++, MATLAB, FORTRAN, Bash  
+- **Tools & Frameworks:** scikit-learn, pandas, PyTorch, TensorFlow/Keras, ONNX, Docker, AWS, GCP  
+
+## Volunteering  
+- Led 16 students at InterIIT Tech Meet 13.0  
+- Led UDAAN campaign for agro-entrepreneurship in rural Tamil Nadu  
+- Organized Heal-Thy campaign on carbon-credit awareness 
