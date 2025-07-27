@@ -3,8 +3,8 @@ title: "Enhancing Financial RAG using Agentic AI and Multi-HyDE: A Novel Approac
 collection: publications
 permalink: /publication/2025-financial-rag-agentic-ai
 excerpt: 'This paper presents a novel approach to enhance financial retrieval-augmented generation using agentic AI systems and Multi-HyDE methodology to reduce hallucinations and improve information retrieval accuracy.'
-date: 2025-01-01
-venue: 'Conference on Language Modelling (Under Review)'
+date: 2025-05-01
+venue: '*CL Conference (Under Review)'
 citation: 'Akshay Govind Srinivasan, Ryan George et al. (2025). &quot;Enhancing Financial RAG using Agentic AI and Multi-HyDE: A Novel Approach to Information Retrieval and Hallucination Reduction.&quot; <i>Conference on Language Modelling</i>. (Under Review).'
 ---
 
