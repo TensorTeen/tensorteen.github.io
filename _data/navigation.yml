@@ -2,7 +2,10 @@
 main:
   - title: "Experience"
     url: /experience/
-
+    
+  - title: "Publications"
+    url: /publications/
+    
   - title: "Projects"
     url: /projects/
     
