@@ -3,8 +3,8 @@ title: "Systems and Methods for Agentic Based Approach in Retrieval Augmented Ge
 collection: publications
 permalink: /publication/2025-agentic-rag-systems-patent
 excerpt: 'This patent describes systems and methods for implementing agentic approaches in retrieval-augmented generation, enhancing AI system capabilities through intelligent agent-based architectures.'
-date: 2025-01-01
-venue: 'Patent Application'
+date: 2025-07-26
+venue: 'Journal of Intellectual Property Rights (JIPR)'
 citation: 'Akshay Govind Srinivasan, Ryan Jacob George et al. (2025). &quot;Systems and Methods for Agentic Based Approach in Retrieval Augmented Generation.&quot; <i>Patent Application Number: 202541024879</i>.'
 ---
 
