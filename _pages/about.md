@@ -21,11 +21,5 @@ Engineering and Minoring in AI at the [Indian Institute of Technology Madras (II
 
 [06 June 2024] I have joined Sarvam.AI as an intern working on building AI agents for Multi-lingual Healthcare use case. 
 
-You can reach out to me through email me22b102@smail.iitm.ac.in.
-
-this is academic pages web site (markdown), add relevant links wherever necessary
-
-
-
-2/2
+You can reach out to me through email [me22b102@smail.iitm.ac.in](mailto:me22b102@smail.iitm.ac.in?subject=%5BAcademic%20Website%5D).
 
