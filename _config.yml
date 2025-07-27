@@ -212,6 +212,10 @@ collections:
   research_experience:
     output: true
     permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  
 
 
 # Defaults
