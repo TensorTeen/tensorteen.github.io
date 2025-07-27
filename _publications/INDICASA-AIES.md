@@ -3,7 +3,7 @@ title: "IndiCASA: A Dataset and Bias Evaluation Framework for LLMs Using Contras
 collection: publications
 permalink: /publication/2025-indicasa-bias-evaluation
 excerpt: 'This paper introduces IndiCASA, a comprehensive dataset and evaluation framework for measuring social biases in Large Language Models specifically tailored for the Indian context using contrastive embedding similarity.'
-date: 2025-07-18
+date: 2025-07-19
 venue: 'Eighth AAAI/ACM Conference on AI, Ethics, and Society (Under Review)'
 citation: 'Santhosh G S, Akshay Govind Srinivasan, et al. (2025). &quot;IndiCASA: A Dataset and Bias Evaluation Framework for LLMs Using Contrastive Embedding Similarity in the Indian Context.&quot; <i>Eighth AAAI/ACM Conference on AI, Ethics, and Society</i>. (Under Review).'
 ---
