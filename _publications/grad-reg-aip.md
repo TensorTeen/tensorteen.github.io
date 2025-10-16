@@ -3,7 +3,7 @@ title: "Gradient-Based Regularization for Inverse Airfoil Design"
 collection: publications
 permalink: /publication/2025-grad-reg-inv-design
 excerpt: 'A gradient-regularized deep learning framework is proposed for inverse airfoil design, enforcing geometric smoothness through spatial derivatives while preserving aerodynamic accuracy.'
-date: 2025-07-20 (under review)
+date: 2025-07-20
 venue: 'Physics of Fluids, AIP Publishing'
 ---
 
