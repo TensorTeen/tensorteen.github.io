@@ -3,7 +3,7 @@ layout: page
 title: Training-Free Memory Layer for Robotics
 description: Developed a **Training-Free Memory Conditioned Action Generation** framework. This non-parametric, retrieval-augmented system conditions a frozen VLA on historical expert trajectories, guiding action generation without requiring any fine-tuning or architectural changes.
 img: assets/img/projects/fujitsu/Figure_1.jpg
-importance: 2
+importance: 1
 category: work
 ---
 
@@ -12,18 +12,20 @@ Vision-Language-Action (VLA) models have fundamentally shifted the paradigm of r
 To solve this, we developed a **Training-Free Memory Conditioned Action Generation** framework. This non-parametric, retrieval-augmented system conditions a frozen VLA on historical expert trajectories, guiding action generation without requiring any fine-tuning or architectural changes.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/fujitsu/Figure_2.jpg" title="Figure 2: Effect of memory on long-horizon task" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+</div>
+<div class="row">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/fujitsu/Figure_7.jpg" title="Figure 7: Callbacks to the memory (CALVIN)" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/fujitsu/Figure_8.jpg" title="Figure 8: Callbacks to the memory (LIBERO)" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Figure 2 shows a standard VLA policy drifting early in a long-horizon task versus successful completion when augmented with our memory framework. Figures 7 and 8 highlight the frequent callbacks to memory during failure cases across CALVIN and LIBERO, demonstrating how the system steps in precisely when the base model fails.
+    The top image shows a standard VLA policy drifting early in a long-horizon task versus successful completion when augmented with our memory framework. The bottom left and bottom right images highlight the frequent callbacks to memory during failure cases across CALVIN and LIBERO, demonstrating how the system steps in precisely when the base model fails.
 </div>
 
 ---
@@ -43,7 +45,7 @@ Our framework bypasses the computational bottlenecks of traditional fine-tuning,
     </div>
 </div>
 <div class="caption">
-    Figure 3: The full pipeline framework. Expert demonstrations are encoded into VLM and state trajectories to build the HNSW index. During inference, if the agent struggles, the current state queries the HNSW index to retrieve relevant past VLM embeddings, which are concatenated to guide the frozen VLA action expert.
+    The diagram above details the full pipeline framework. Expert demonstrations are encoded into VLM and state trajectories to build the HNSW index. During inference, if the agent struggles, the current state queries the HNSW index to retrieve relevant past VLM embeddings, which are concatenated to guide the frozen VLA action expert.
 </div>
 
 ---
@@ -57,15 +59,17 @@ We rigorously evaluated our framework against state-of-the-art models (such as F
 * **Robustness to Corruption:** When deployed in simulated out-of-distribution (OOD) environments featuring visual corruptions like defocus, smudges, and sensor dead pixels, the memory-conditioned models mitigated performance degradation, showing average absolute gains of 10.7%.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/projects/fujitsu/Figure_1.jpg" title="Figure 1: Comparison of VLA performance" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
+</div>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/projects/fujitsu/Figure_11.jpg" title="Figure 11: Comparison of results over observation corruptions" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Figure 1 details consistent performance gains over baseline VLAs across the CALVIN and LIBERO benchmarks. Figure 11 demonstrates the framework's robustness, showing significant performance retention even when the agent's camera observations are subjected to heavy visual corruptions like smudging or defocus.
+    The top image details consistent performance gains over baseline VLAs across the CALVIN and LIBERO benchmarks. The bottom image demonstrates the framework's robustness, showing significant performance retention even when the agent's camera observations are subjected to heavy visual corruptions like smudging or defocus.
 </div>
 
 ### Real-World Deployment
@@ -83,5 +87,5 @@ Evaluated heavily under real-world OOD conditions (such as skewed microwave plac
     </div>
 </div>
 <div class="caption">
-    Figure 5 shows first-person and side-camera views of the robot successfully grasping the microwave handle and placing the bowl inside utilizing memory conditioning, overcoming the oscillations seen in the baseline. Figure 4 highlights the rigorous out-of-distribution variations tested, including skewed placements and cloth occlusions.
+    The image on the left shows first-person and side-camera views of the robot successfully grasping the microwave handle and placing the bowl inside utilizing memory conditioning, overcoming the oscillations seen in the baseline. The image on the right highlights the rigorous out-of-distribution variations tested, including skewed placements and cloth occlusions.
 </div>
