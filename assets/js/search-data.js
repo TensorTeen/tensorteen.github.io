@@ -471,9 +471,9 @@ ninja.data = [{
           description: "Grounded Financial Answers with an Event-Driven Live AI™ Pipeline",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-team-geoawaregpt",
+          title: 'Team GeoAwareGPT',
+          description: "Bringing Geo-Spatial Context to LLMs at the Bharatiya Antariksh Hackathon 2024",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-project-5",
