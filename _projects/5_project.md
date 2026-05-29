@@ -2,7 +2,7 @@
 layout: page
 title: Project Optiwing
 description: Enforcing geometric smoothness in deep learning-based inverse airfoil design using spatial gradients.
-img: assets/img/fig1_forward_inverse.jpg
+img: assets/img/projects/optiwing/fig1_forward_inverse.jpg
 importance: 1
 category: work
 related_publications: true
@@ -14,13 +14,13 @@ To address this critical gap, this project {% cite chivukula2025gradient %} intr
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/fig1_forward_inverse.jpg" title="Forward and Inverse Airfoil Analysis" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/optiwing/fig1_forward_inverse.jpg" title="Forward and Inverse Airfoil Analysis" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/fig3_dnn_architecture.jpg" title="Vanilla DNN Architecture" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/optiwing/fig3_dnn_architecture.jpg" title="Vanilla DNN Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/fig5_training_pipeline.jpg" title="Gradient Loss Training Pipeline" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/optiwing/fig5_training_pipeline.jpg" title="Gradient Loss Training Pipeline" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -35,7 +35,7 @@ The results demonstrated that our approach successfully bridges the gap between 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/fig10_airfoil_predictions.jpg" title="Airfoil Shape Predictions and MSE" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/optiwing/fig10_airfoil_predictions.jpg" title="Airfoil Shape Predictions and MSE" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -50,10 +50,10 @@ Finally, our practical inverse design surrogate was evaluated across varied oper
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/fig15_spectral_energy.jpg" title="Spectral Energy Analysis" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/optiwing/fig15_spectral_energy.jpg" title="Spectral Energy Analysis" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/fig21_airfoil_morphing.jpg" title="Airfoil Morphing Generalization" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/optiwing/fig21_airfoil_morphing.jpg" title="Airfoil Morphing Generalization" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
