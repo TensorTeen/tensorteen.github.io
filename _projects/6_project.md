@@ -3,7 +3,7 @@ layout: page
 title: Intelligent Tool Manipulation Systems
 description: RE-GAINS & EnChAnT frameworks for enhanced LLM query responses
 img: assets/img/projects/regains-enchant/project_cover.jpg
-importance: 1
+importance: 3
 category: fun
 related_publications: true
 ---
