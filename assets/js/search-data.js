@@ -408,12 +408,7 @@ ninja.data = [{
             },},{id: "news-i-have-joined-sarvam-ai-as-an-intern-working-on-building-ai-agents-for-multi-lingual-healthcare-use-case",
           title: 'I have joined Sarvam.AI as an intern working on building AI agents for...',
           description: "",
-          section: "News",},{id: "news-our-work-on-quot-grounded-financial-answers-with-an-event-driven-live-ai-pipeline-quot-is-public-now",
-          title: 'Our work on &amp;quot;Grounded Financial Answers with an Event-Driven Live AI™ Pipeline&amp;quot; is...',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_6/";
-            },},{id: "news-i-ve-been-selected-for-the-kiran-award-2024-the-best-academic-student-by-the-indian-society-for-non-destructive-testing-isnt",
+          section: "News",},{id: "news-i-ve-been-selected-for-the-kiran-award-2024-the-best-academic-student-by-the-indian-society-for-non-destructive-testing-isnt",
           title: 'I’ve been selected for the Kiran Award 2024 – “The Best Academic Student”...',
           description: "",
           section: "News",handler: () => {
@@ -423,6 +418,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_4/";
+            },},{id: "news-our-work-on-quot-grounded-financial-answers-with-an-event-driven-live-ai-pipeline-quot-is-public-now",
+          title: 'Our work on &amp;quot;Grounded Financial Answers with an Event-Driven Live AI™ Pipeline&amp;quot; is...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_6/";
             },},{id: "news-i-have-joined-adobe-media-and-data-science-research-lab-as-an-intern-working-on-building-multi-agent-collaborative-rl-framework-for-video-tasks",
           title: 'I have joined Adobe Media and Data Science Research Lab as an intern...',
           description: "",
