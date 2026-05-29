@@ -463,7 +463,7 @@ ninja.data = [{
               window.location.href = "/projects/1_project/";
             },},{id: "projects-training-free-memory-layer-for-robotics",
           title: 'Training-Free Memory Layer for Robotics',
-          description: "Developed a **Training-Free Memory Conditioned Action Generation** framework. This non-parametric, retrieval-augmented system conditions a frozen VLA on historical expert trajectories, guiding action generation without requiring any fine-tuning or architectural changes.",
+          description: "Training-Free, non-parametric, retrieval-augmented Memory Conditioned Action Generation framework for improving long-horizon VLA performance",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-agentic-ai-for-financial-intelligence",
