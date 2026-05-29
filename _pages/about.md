@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Incoming PhD Student at <a href='https://mit.edu/'> Massachusetts Institute of Technology </a>.
 
 profile:
   align: right
