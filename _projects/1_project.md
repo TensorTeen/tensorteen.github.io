@@ -2,7 +2,7 @@
 layout: page
 title: Adaptive and Interpretable Mesh-Free Neural Solvers
 description: Accelerating Stiff PDE Resolution via Kernel-Adaptive Physics-Informed Extreme Learning Machines (PI-ELMs)
-img: assets/img/gyroid_geometry.jpg
+img: assets/img/projects/pielm//gyroid_geometry.jpg
 importance: 1
 category: work
 related_publications:
@@ -28,10 +28,10 @@ To resolve highly localized stiff dynamics where manual heuristics fail, the **G
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/fig_1_single_nu_1e4_1d.jpg" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/pielm//fig_1_single_nu_1e4_1d.jpg" title="" class="img/projects/pielm/-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/fig_2_single_nu_1e4_1d.jpg" title="GMM Learned Error Density" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/pielm//fig_2_single_nu_1e4_1d.jpg" title="GMM Learned Error Density" class="img/projects/pielm/-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -54,10 +54,10 @@ Numerical experiments demonstrate that our mesh-free solver computes fluid struc
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pinn_backstep.jpg" title="PINN Flow Prediction" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/pielm//pinn_backstep.jpg" title="PINN Flow Prediction" class="img/projects/pielm/-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pielm-backstep-heatmap.jpg" title="RBF-PIELM Flow Prediction" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/pielm//pielm-backstep-heatmap.jpg" title="RBF-PIELM Flow Prediction" class="img/projects/pielm/-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -76,7 +76,7 @@ Despite the highly convoluted, interconnected microfluidic channels, RBF-PIELM e
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/rbf_pielm_comparison.jpg" title="Gyroid Computational Domain" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/pielm//rbf_pielm_comparison.jpg" title="Gyroid Computational Domain" class="img/projects/pielm/-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -100,7 +100,7 @@ By implementing a **Teacher-Student validation protocol**, we paired our fast li
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/parameter_recovery_error.jpg" title="Parameter Recovery Chart" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/pielm//parameter_recovery_error.jpg" title="Parameter Recovery Chart" class="img/projects/pielm/-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
