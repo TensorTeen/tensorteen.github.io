@@ -456,9 +456,9 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_10/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+            },},{id: "projects-adaptive-and-interpretable-mesh-free-neural-solvers",
+          title: 'Adaptive and Interpretable Mesh-Free Neural Solvers',
+          description: "Accelerating Stiff PDE Resolution via Kernel-Adaptive Physics-Informed Extreme Learning Machines (PI-ELMs)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
