@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I have joined Adobe Media and Data Science Research Lab as an intern working on building Multi-Agent Collaborative RL framework for Video Tasks
-date: 2015-11-07 16:11:00-0400
+date: 2025-05-19
 inline: false
 related_posts: false
 ---
