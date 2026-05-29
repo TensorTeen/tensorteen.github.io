@@ -405,16 +405,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-page-is-under-construction",
-          title: 'Page is under construction !',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
+            },},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-i-have-joined-sarvam-ai-as-an-intern-working-on-building-ai-agents-for-multi-lingual-healthcare-use-case",
+          title: 'I have joined Sarvam.AI as an intern working on building AI agents for...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
