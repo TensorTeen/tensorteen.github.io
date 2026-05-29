@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2024-06-06 
+date: 2025-04-20 
 inline: false
 title: Our work on "Grounded Financial Answers with an Event-Driven Live AI™ Pipeline" is public now !
 related_posts: false
