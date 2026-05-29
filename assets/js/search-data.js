@@ -466,9 +466,9 @@ ninja.data = [{
           description: "Developed a **Training-Free Memory Conditioned Action Generation** framework. This non-parametric, retrieval-augmented system conditions a frozen VLA on historical expert trajectories, guiding action generation without requiring any fine-tuning or architectural changes.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-agentic-ai-for-financial-intelligence",
+          title: 'Agentic AI for Financial Intelligence',
+          description: "Grounded Financial Answers with an Event-Driven Live AI™ Pipeline",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
