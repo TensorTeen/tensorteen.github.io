@@ -80,7 +80,7 @@ Despite the highly convoluted, interconnected microfluidic channels, RBF-PIELM e
 </div>
 
 ### Derivative Pricing via Black-Scholes and Heston-Hull-White Systems
-In quantitative finance, the framework was adapted to circumvent the "curse of dimensionality" when evaluating complex multi-factor derivatives. In {% citeauthor srinivasan2025towards %}, we modeled options under the high-dimensional **Heston-Hull-White (HHW) framework**, which introduces simultaneous stochastic volatility and stochastic short interest rates:
+In quantitative finance, the framework was adapted to circumvent the "curse of dimensionality" when evaluating complex multi-factor derivatives. In {% cite srinivasan2025towards %}, we modeled options under the high-dimensional **Heston-Hull-White (HHW) framework**, which introduces simultaneous stochastic volatility and stochastic short interest rates:
 
 $$\frac{\partial V}{\partial t} + rS\frac{\partial V}{\partial S} + \kappa_v(\theta_v - v)\frac{\partial V}{\partial v} + \kappa_r(\theta_r - r)\frac{\partial V}{\partial r} + \dots - rV = 0$$
 
