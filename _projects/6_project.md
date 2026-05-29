@@ -1,80 +1,68 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
+title: Intelligent Tool Manipulation Systems
+description: RE-GAINS & EnChAnT frameworks for enhanced LLM query responses
+img: assets/img/projects/regains-enchant/project_cover.jpg
+importance: 1
 category: fun
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Large Language Models (LLMs) currently struggle with tool invocation and chaining, as they often hallucinate or miss essential steps in a sequence. To overcome these limitations and progress towards Artificial General Intelligence (AGI), it is crucial that LLMs efficiently perform logical and mathematical operations. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+This project {% cite girhepuje2024regains %} introduces **RE-GAINS** and **EnChAnT**, two novel frameworks that empower LLMs to tackle complex user queries by making API calls to external tools based on tool descriptions and argument lists. These systems analyze input queries, select appropriate tools, define arguments, and sequence the deployment of these tools without receiving actual results from individual intermediate calls.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/regains-enchant/regains_pipeline.jpg" title="RE-GAINS Pipeline" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/regains-enchant/enchant_pipeline.jpg" title="EnChAnT Pipeline" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Left: The RE-GAINS architecture, featuring tool and example retrievers feeding into an OpenAI system. Right: The EnChAnT pipeline, showcasing Jina Embeddings, task decomposition, and OpenChat 3.5 integrations alongside an LLM Format Enforcer.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Dual-Pipeline Approach
+
+Our work establishes two distinct pipelines tailored to specific objectives:
+
+* **RE-GAINS (Retrieval Enhanced Generation via Actions INsights and States):** This pipeline is designed to maximize efficiency. It utilizes OpenAI models and embeddings coupled with a specialized prompt based on the Reasoning via Planning (RAP) framework. By retrieving relevant tools and examples, it accelerates reasoning and reduces input tokens, making it highly cost-effective.
+* **EnChAnT (Enforced Creation of Actions and Thoughts):** Optimized for performance, this open-source solution leverages an LLM format enforcer, the OpenChat 3.5 model, and ToolBench's API Retriever. It uses a rigorous three-stage process: Tool Retrieval, Task Decomposition, and Recomposition.
+
+### Mitigating Hallucinations with LLM Enforcers
+
+In the realm of complex question answering, hallucination remains a prevalent challenge, particularly concerning tool manipulation. LLMs often generate nonexistent resources or hallucinate argument substitutions (e.g., mistakenly formatting array indices). 
+
+To counter this, we integrated the Language Model Format Enforcer (LMFE), which filters the model's generated tokens at every time step. This forces the LLM to output valid JSON schemas and eliminates tool and argument hallucinations. For closed-source models like GPT-3.5, we developed a novel pipeline that passes the output into an open-source model acting as an "identity function" constrained by the enforcer.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/regains-enchant/llm_enforcer.jpg" title="LLM Enforcer Pipeline" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/regains-enchant/copilot_example.jpg" title="GitHub Copilot Example" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Left: Our novel pipeline to apply LLM format enforcers to closed-source models like GPT 3.5 by routing outputs through an OpenChat 3.5 identity function. Right: An observation of GitHub Copilot successfully auto-completing a user query, demonstrating the real-world applicability of tool manipulation capabilities.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Evaluation and Efficiency
 
-{% raw %}
+We adopted a multi-faceted evaluation framework inspired by ControlLLM. Our models were assessed based on rigorous metrics:
+* **Tool Selection:** Irrelevant Tool Inclusion Rate (IR), Necessary Tool Inclusion Rate (NR), and Missing Tool Rate (MR).
+* **Argument Assignment:** Resource Hallucination Rate (HR).
+* **Solution Evaluation:** BLEU Score and ROUGE-L F1 Score.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/regains-enchant/benchmark_results.jpg" title="Benchmark Table" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
+<div class="caption">
+    Benchmark results evaluating different implementations on our golden dataset. RE-GAINS paired with GPT-3.5-turbo demonstrates a high Necessary Tool Inclusion Rate (0.961) and incredibly low Resource Hallucination Rate (0.003).
+</div>
 
-{% endraw %}
+Both RE-GAINS and EnChAnT proved to be incredibly low-cost—operating at approximately $0.01 per query—while demonstrating the scalable ability to invoke and chain externally described tools across various domains. Ultimately, these systems represent a significant step towards developing AI agents capable of effectively handling complex logical tasks with external assistance.
