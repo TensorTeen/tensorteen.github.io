@@ -1,81 +1,87 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: Beyond the Moment, Conditioning Frozen VLAs on Memory for Long-Horizon Manipulation Tasks
+description: Developed a **Training-Free Memory Conditioned Action Generation** framework. This non-parametric, retrieval-augmented system conditions a frozen VLA on historical expert trajectories, guiding action generation without requiring any fine-tuning or architectural changes.
+img: assets/img/Figure_1.jpg
+importance: 1
+category: research
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Vision-Language-Action (VLA) models have fundamentally shifted the paradigm of robotic control, enabling generalist agents to follow natural language instructions. However, these foundation models struggle significantly with long-horizon tasks. Because they typically operate as reactive, first-order Markovian systems, they rely almost entirely on immediate sensory input and ignore historical context. This dynamic induces compounding errors over extended inference timesteps and leaves models vulnerable to perceptual aliasing—where visually identical pre- and post-grasp scenes cause unstable action predictions.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+To solve this, we developed a **Training-Free Memory Conditioned Action Generation** framework. This non-parametric, retrieval-augmented system conditions a frozen VLA on historical expert trajectories, guiding action generation without requiring any fine-tuning or architectural changes.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Figure_2.jpg" title="Figure 2: Effect of memory on long-horizon task" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Figure_7.jpg" title="Figure 7: Callbacks to the memory (CALVIN)" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Figure_8.jpg" title="Figure 8: Callbacks to the memory (LIBERO)" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Figure 2 shows a standard VLA policy drifting early in a long-horizon task versus successful completion when augmented with our memory framework. Figures 7 and 8 highlight the frequent callbacks to memory during failure cases across CALVIN and LIBERO, demonstrating how the system steps in precisely when the base model fails.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+---
+
+### Methodology: How Training-Free Memory Works
+
+Our framework bypasses the computational bottlenecks of traditional fine-tuning, such as catastrophic forgetting and exhaustive hyperparameter searches. Instead, it uses a plug-and-play memory module designed for fast, inference-time adaptation. 
+
+* **Memory Construction:** We build an external memory bank by slicing expert training trajectories into sliding-window chunks. Each chunk consists of a vision-language model (VLM) embedding and a corresponding robot state embedding.
+* **State-Centric Retrieval:** Because visual embeddings can lack fine-grained discriminative power during distribution shifts, we retrieve memories using purely proprioceptive state embeddings. 
+* **High-Speed Indexing:** To ensure low latency, the system organizes these state embeddings using a Hierarchical Navigable Small World (HNSW) data structure. This allows for highly efficient, high-recall approximate nearest neighbor searches using the $L_2$ distance metric.
+* **Selective Gating:** The memory is not always active. To preserve fast inference times on simple tasks, we employ an adaptive fallback strategy that triggers memory conditioning only when the base policy fails.
 
 <div class="row justify-content-sm-center">
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Figure_3.jpg" title="Figure 3: The framework of our proposed Memory" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 3: The full pipeline framework. Expert demonstrations are encoded into VLM and state trajectories to build the HNSW index. During inference, if the agent struggles, the current state queries the HNSW index to retrieve relevant past VLM embeddings, which are concatenated to guide the frozen VLA action expert.
+</div>
+
+---
+
+### Evaluation and Breakthrough Results
+
+We rigorously evaluated our framework against state-of-the-art models (such as FlowerVLA and MoDE) across 5 datasets from the popular CALVIN and LIBERO benchmarks. 
+
+* **Benchmark Dominance:** Our method achieved relative gains of up to 27% in task completion success rates over standard baselines. 
+* **Long-Horizon Extension:** We extended the CALVIN benchmark to test extreme task horizons (6 to 10 sequential instructions). Under these highly complex conditions, our framework yielded up to 30% relative improvement margins.
+* **Robustness to Corruption:** When deployed in simulated out-of-distribution (OOD) environments featuring visual corruptions like defocus, smudges, and sensor dead pixels, the memory-conditioned models mitigated performance degradation, showing average absolute gains of 10.7%.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Figure_1.jpg" title="Figure 1: Comparison of VLA performance" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Figure_11.jpg" title="Figure 11: Comparison of results over observation corruptions" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 1 details consistent performance gains over baseline VLAs across the CALVIN and LIBERO benchmarks. Figure 11 demonstrates the framework's robustness, showing significant performance retention even when the agent's camera observations are subjected to heavy visual corruptions like smudging or defocus.
+</div>
+
+### Real-World Deployment
+
+To validate the framework's practical viability, we deployed it on a physical Cobot-Magic-AgileX robot equipped with a 6-DOF arm. The robot was tasked with a sequential, long-horizon objective: reaching a microwave, opening the door, and placing a bowl inside. 
+
+Evaluated heavily under real-world OOD conditions (such as skewed microwave placement and handle occlusions), the memory-augmented system demonstrated remarkable resilience, realizing up to a 2X increase in success rates compared to the base policy.
+
+<div class="row">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Figure_5.jpg" title="Figure 5: Real World Qualitative comparison of task execution" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Figure_4.jpg" title="Figure 4: Inference Time OOD variations" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Figure 5 shows first-person and side-camera views of the robot successfully grasping the microwave handle and placing the bowl inside utilizing memory conditioning, overcoming the oscillations seen in the baseline. Figure 4 highlights the rigorous out-of-distribution variations tested, including skewed placements and cloth occlusions.
 </div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
