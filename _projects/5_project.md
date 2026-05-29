@@ -3,7 +3,7 @@ layout: page
 title: Project Optiwing
 description: Enforcing geometric smoothness in deep learning-based inverse airfoil design using spatial gradients.
 img: assets/img/projects/optiwing/fig1_forward_inverse.jpg
-importance: 1
+importance: 3
 category: work
 related_publications: true
 ---
