@@ -2,7 +2,7 @@
 layout: page
 title: Beyond the Moment, Conditioning Frozen VLAs on Memory for Long-Horizon Manipulation Tasks
 description: Developed a **Training-Free Memory Conditioned Action Generation** framework. This non-parametric, retrieval-augmented system conditions a frozen VLA on historical expert trajectories, guiding action generation without requiring any fine-tuning or architectural changes.
-img: assets/img/Figure_1.jpg
+img: assets/img/projects/fujitsu/Figure_1.jpg
 importance: 1
 category: research
 ---
@@ -13,13 +13,13 @@ To solve this, we developed a **Training-Free Memory Conditioned Action Generati
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Figure_2.jpg" title="Figure 2: Effect of memory on long-horizon task" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/fujitsu/Figure_2.jpg" title="Figure 2: Effect of memory on long-horizon task" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Figure_7.jpg" title="Figure 7: Callbacks to the memory (CALVIN)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/fujitsu/Figure_7.jpg" title="Figure 7: Callbacks to the memory (CALVIN)" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Figure_8.jpg" title="Figure 8: Callbacks to the memory (LIBERO)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/fujitsu/Figure_8.jpg" title="Figure 8: Callbacks to the memory (LIBERO)" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -39,7 +39,7 @@ Our framework bypasses the computational bottlenecks of traditional fine-tuning,
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Figure_3.jpg" title="Figure 3: The framework of our proposed Memory" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/fujitsu/Figure_3.jpg" title="Figure 3: The framework of our proposed Memory" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -58,10 +58,10 @@ We rigorously evaluated our framework against state-of-the-art models (such as F
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Figure_1.jpg" title="Figure 1: Comparison of VLA performance" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/fujitsu/Figure_1.jpg" title="Figure 1: Comparison of VLA performance" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Figure_11.jpg" title="Figure 11: Comparison of results over observation corruptions" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/fujitsu/Figure_11.jpg" title="Figure 11: Comparison of results over observation corruptions" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -76,10 +76,10 @@ Evaluated heavily under real-world OOD conditions (such as skewed microwave plac
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Figure_5.jpg" title="Figure 5: Real World Qualitative comparison of task execution" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/fujitsu/Figure_5.jpg" title="Figure 5: Real World Qualitative comparison of task execution" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Figure_4.jpg" title="Figure 4: Inference Time OOD variations" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/fujitsu/Figure_4.jpg" title="Figure 4: Inference Time OOD variations" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
