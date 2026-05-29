@@ -456,13 +456,13 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_10/";
-            },},{id: "projects-adaptive-and-interpretable-mesh-free-neural-solvers",
-          title: 'Adaptive and Interpretable Mesh-Free Neural Solvers',
-          description: "Accelerating Stiff PDE Resolution via Kernel-Adaptive Physics-Informed Extreme Learning Machines (PI-ELMs)",
+            },},{id: "projects-gmm-pielm",
+          title: 'GMM-PIELM',
+          description: "Accelerating Stiff PDE Resolution via Gaussian Mixture Model based Physics-Informed Extreme Learning Machines (PI-ELMs)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-beyond-the-moment-conditioning-frozen-vlas-on-memory-for-long-horizon-manipulation-tasks",
-          title: 'Beyond the Moment, Conditioning Frozen VLAs on Memory for Long-Horizon Manipulation Tasks',
+            },},{id: "projects-training-free-memory-layer-for-robotics",
+          title: 'Training-Free Memory Layer for Robotics',
           description: "Developed a **Training-Free Memory Conditioned Action Generation** framework. This non-parametric, retrieval-augmented system conditions a frozen VLA on historical expert trajectories, guiding action generation without requiring any fine-tuning or architectural changes.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
