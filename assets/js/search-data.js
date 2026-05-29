@@ -408,7 +408,12 @@ ninja.data = [{
             },},{id: "news-i-have-joined-sarvam-ai-as-an-intern-working-on-building-ai-agents-for-multi-lingual-healthcare-use-case",
           title: 'I have joined Sarvam.AI as an intern working on building AI agents for...',
           description: "",
-          section: "News",},{id: "news-our-work-on-finance-ai-has-been-accepted-in-finnlp-emnlp-2025-we-present-quot-enhancing-financial-rag-with-agentic-ai-and-multi-hyde-quot",
+          section: "News",},{id: "news-i-have-successfully-completed-my-research-internship-with-the-next-gen-ai-lab-at-fujitsu-research",
+          title: 'I have successfully completed my research internship with the Next Gen AI Lab...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_12/";
+            },},{id: "news-our-work-on-finance-ai-has-been-accepted-in-finnlp-emnlp-2025-we-present-quot-enhancing-financial-rag-with-agentic-ai-and-multi-hyde-quot",
           title: 'Our work on Finance AI has been accepted in FinNLP@EMNLP 2025, we present...',
           description: "",
           section: "News",handler: () => {
