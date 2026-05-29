@@ -2,7 +2,7 @@
 layout: post
 date: 2025-12-16 
 inline: false
-title: Our paper Towards Sustainable Scientific Machine Learning: Fast and Interpretable PDE Solvers via RBF-PIELM has been accepted at ACM CODS 2025 as oral and archival work !
+title: Our paper "Towards Sustainable Scientific Machine Learning Fast and Interpretable PDE Solvers via RBF-PIELM" has been accepted at ACM CODS 2025 as oral and archival work !
 related_posts: false
 ---
 
