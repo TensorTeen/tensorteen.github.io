@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Beyond the Moment, Conditioning Frozen VLAs on Memory for Long-Horizon Manipulation Tasks
+title: Training-Free Memory Layer for Robotics
 description: Developed a **Training-Free Memory Conditioned Action Generation** framework. This non-parametric, retrieval-augmented system conditions a frozen VLA on historical expert trajectories, guiding action generation without requiring any fine-tuning or architectural changes.
 img: assets/img/projects/fujitsu/Figure_1.jpg
-importance: 1
-category: research
+importance: 2
+category: work
 ---
 
 Vision-Language-Action (VLA) models have fundamentally shifted the paradigm of robotic control, enabling generalist agents to follow natural language instructions. However, these foundation models struggle significantly with long-horizon tasks. Because they typically operate as reactive, first-order Markovian systems, they rely almost entirely on immediate sensory input and ignore historical context. This dynamic induces compounding errors over extended inference timesteps and leaves models vulnerable to perceptual aliasing—where visually identical pre- and post-grasp scenes cause unstable action predictions.
