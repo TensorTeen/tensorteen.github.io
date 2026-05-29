@@ -486,9 +486,9 @@ ninja.data = [{
           description: "RE-GAINS &amp; EnChAnT frameworks for enhanced LLM query responses",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-indicasa",
+          title: 'IndiCASA',
+          description: "A Dataset and Bias Evaluation Framework in LLMs Using Contrastive Embedding Similarity in the Indian Context",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
