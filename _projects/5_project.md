@@ -10,7 +10,7 @@ related_publications: true
 
 Inverse airfoil design is a cornerstone in aerospace engineering, involving the iterative modification of airfoil geometries to achieve specified aerodynamic performance. While recent deep learning advances allow faster airfoil shape predictions from pressure coefficient ($C_{p}$) distributions, a persistent challenge remains. Existing deep-learning-based models often generate physically nonviable airfoils with non-smooth geometries, manifesting as wiggles and kinks on the surface. 
 
-To address this critical gap, this project introduces a novel gradient-based regularization approach. By incorporating first- and second-order spatial gradient terms into the loss function of deep neural networks (DNN), we enforce geometric smoothness while preserving essential aerodynamic characteristics.
+To address this critical gap, this project {% cite chivukula2025gradient %} introduces a novel gradient-based regularization approach. By incorporating first- and second-order spatial gradient terms into the loss function of deep neural networks (DNN), we enforce geometric smoothness while preserving essential aerodynamic characteristics.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
