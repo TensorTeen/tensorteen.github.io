@@ -1,20 +1,16 @@
 ---
 layout: page
-title: Adaptive and Interpretable Mesh-Free Neural Solvers
-description: Accelerating Stiff PDE Resolution via Kernel-Adaptive Physics-Informed Extreme Learning Machines (PI-ELMs)
+title: GMM-PIELM
+description: Accelerating Stiff PDE Resolution via Gaussian Mixture Model based Physics-Informed Extreme Learning Machines (PI-ELMs)
 img: assets/img/projects/pielm/gyroid_geometry.jpg
 importance: 1
 category: work
-related_publications:
-    srinivasan2025deep
-    srinivasan2026towards
-    srinivasan2026learning
-    srinivasan2025towards
+related_publications: true
 ---
 
 Partial Differential Equations (PDEs) serve as the bedrock for modeling physical phenomena across engineering domains. While classical discretization approaches like FEM, FDM, and FVM are mathematically rigorous, they suffer from intensive mesh-generation bottlenecks in complex 3D structures. Physics-Informed Neural Networks (PINNs) offer a mesh-free path forward, yet they remain bottlenecked by slow iterative training, an uninterpretable "black-box" architecture, and volatile hyperparameter sensitivity. 
 
-This project showcases **RBF-PIELM** and **GMM-PIELM**, which synergize the physics-constrained optimization of PINNs with the lightning-fast, non-iterative linear solving paradigm of Extreme Learning Machines (ELMs). By substituting global activation functions with localized Gaussian kernels, we enable physics-informed initialization and dynamic, error-driven resource allocation.
+This project showcases **RBF-PIELM**{% cite srinivasan2026towards %} and **GMM-PIELM** {% cite srinivasan2026learning %}, which synergize the physics-constrained optimization of PINNs with the lightning-fast, non-iterative linear solving paradigm of Extreme Learning Machines (ELMs). By substituting global activation functions with localized Gaussian kernels, we enable physics-informed initialization and dynamic, error-driven resource allocation.
 
 ---
 
@@ -24,7 +20,7 @@ Standard PIELMs rely on physics-agnostic, random input parameters, leaving hidde
 
 $$\phi_{i}(x;x_{0}^{(i)},\sigma_{i}) = \exp\left(-\frac{||x-x_{0}^{(i)}||^{2}}{2\sigma_{i}^{2}}\right)$$
 
-To resolve highly localized stiff dynamics where manual heuristics fail, the **Gaussian Mixture Model Adaptive PIELM (GMM-PIELM)** treats the unnormalized $\log(1+|residual|)$ field as a spatial probability density function (PDF) of the error profile. An Expectation-Maximization (EM) algorithm dynamically drives RBF centers to cluster closely within critical high-gradient zones, such as thin boundary layers.
+To resolve highly localized stiff dynamics where manual heuristics fail, the **Gaussian Mixture Model Adaptive PIELM (GMM-PIELM)** treats the unnormalized $\log(1+\text{residual})$ field as a spatial probability density function (PDF) of the error profile. An Expectation-Maximization (EM) algorithm dynamically drives RBF centers to cluster closely within critical high-gradient zones, such as thin boundary layers.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -84,7 +80,7 @@ Despite the highly convoluted, interconnected microfluidic channels, RBF-PIELM e
 </div>
 
 ### Derivative Pricing via Black-Scholes and Heston-Hull-White Systems
-In quantitative finance, the framework was adapted to circumvent the "curse of dimensionality" when evaluating complex multi-factor derivatives. We modeled options under the high-dimensional **Heston-Hull-White (HHW) framework**, which introduces simultaneous stochastic volatility and stochastic short interest rates:
+In quantitative finance, the framework was adapted to circumvent the "curse of dimensionality" when evaluating complex multi-factor derivatives. In {% citeauthor srinivasan2025towards %}, we modeled options under the high-dimensional **Heston-Hull-White (HHW) framework**, which introduces simultaneous stochastic volatility and stochastic short interest rates:
 
 $$\frac{\partial V}{\partial t} + rS\frac{\partial V}{\partial S} + \kappa_v(\theta_v - v)\frac{\partial V}{\partial v} + \kappa_r(\theta_r - r)\frac{\partial V}{\partial r} + \dots - rV = 0$$
 
