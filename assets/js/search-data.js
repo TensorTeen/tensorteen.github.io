@@ -431,7 +431,12 @@ ninja.data = [{
             },},{id: "news-our-paper-indicasa-a-dataset-and-bias-evaluation-framework-in-llms-using-contrastive-embedding-similarity-in-the-indian-context-has-been-accepted-at-aaai-acm-conference-on-ai-ethics-and-society-aies-2025",
           title: 'Our paper “IndiCASA: A Dataset and Bias Evaluation Framework in LLMs Using Contrastive...',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "news-",
+          title: '',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcements_7/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
