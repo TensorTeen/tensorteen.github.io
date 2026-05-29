@@ -408,7 +408,12 @@ ninja.data = [{
             },},{id: "news-i-have-joined-sarvam-ai-as-an-intern-working-on-building-ai-agents-for-multi-lingual-healthcare-use-case",
           title: 'I have joined Sarvam.AI as an intern working on building AI agents for...',
           description: "",
-          section: "News",},{id: "news-i-have-joined-adobe-media-and-data-science-research-lab-as-an-intern-working-on-building-multi-agent-collaborative-rl-framework-for-video-tasks",
+          section: "News",},{id: "news-i-ve-been-awarded-the-mrs-jayashree-ananth-prize-for-achieving-the-best-academic-record",
+          title: 'I’ve been awarded the Mrs. Jayashree Ananth Prize for achieving the best academic...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_4/";
+            },},{id: "news-i-have-joined-adobe-media-and-data-science-research-lab-as-an-intern-working-on-building-multi-agent-collaborative-rl-framework-for-video-tasks",
           title: 'I have joined Adobe Media and Data Science Research Lab as an intern...',
           description: "",
           section: "News",handler: () => {
