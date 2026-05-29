@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2026-04-10
-inline: true
+inline: false
 related_posts: false
 title: My first patent has been officially granted!
 ---
