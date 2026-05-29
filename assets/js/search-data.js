@@ -446,7 +446,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_9/";
-            },},{id: "projects-project-1",
+            },},{id: "news-one-for-the-bucket-list-my-first-patent-has-been-officially-granted-i-still-remember-starting-my-btech-at-indian-institute-of-technology-madras-with-a-few-big-goals-in-mind-today-i-m-thrilled-to-share-that-one-of-the-most-ambitious-ones-is-finally-checked-off-context-financial-analysts-spend-a-staggering-amount-of-time-parsing-through-massive-volumes-of-unstructured-data-it-isn-t-just-a-time-intensive-process-properly-interpreting-these-documents-requires-deep-domain-expertise-to-accurately-assimilate-and-understand-the-financial-nuances-within-i-recently-led-a-team-to-build-an-ai-powered-system-designed-to-automate-this-process-our-system-doesn-t-just-read-data-it-understands-complex-unstructured-financial-information-to-answer-specific-questions-and-synthesize-insights-tailored-to-business-needs-this-wouldn-t-have-been-possible-without-my-co-lead-ryan-george-and-my-incredible-team-that-turned-this-vision-into-a-reality-i-m-also-deeply-grateful-to-the-centre-for-innovation-cfi-and-prof-prabhu-rajagopal-for-their-support-and-for-providing-the-ecosystem-where-such-ideas-can-thrive-let-s-connect-if-you-re-excited-by-the-intersection-of-ai-and-finance-i-d-love-to-chat-also-if-you-re-looking-to-collaborate-on-similar-high-impact-projects-feel-free-to-reach-out",
+          title: 'One for the bucket list: My first patent has been officially granted! 📝✨...',
+          description: "",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
