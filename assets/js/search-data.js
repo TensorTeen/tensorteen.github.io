@@ -441,6 +441,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_7/";
+            },},{id: "news-honored-to-receive-two-awards-at-aaai2026-for-our-research-on-llm-bias-evaluation",
+          title: 'Honored to receive two awards at AAAI2026 for our research on LLM bias...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_9/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
