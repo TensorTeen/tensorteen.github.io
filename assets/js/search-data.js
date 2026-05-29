@@ -405,8 +405,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-i-have-joined-adobe-media-and-data-science-research-lab-as-an-intern-working-on-building-multi-agent-collaborative-rl-framework-for-video-tasks",
+          title: 'I have joined Adobe Media and Data Science Research Lab as an intern...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
