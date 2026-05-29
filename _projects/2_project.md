@@ -3,7 +3,7 @@ layout: page
 title: Training-Free Memory Layer for Robotics
 description: Developed a **Training-Free Memory Conditioned Action Generation** framework. This non-parametric, retrieval-augmented system conditions a frozen VLA on historical expert trajectories, guiding action generation without requiring any fine-tuning or architectural changes.
 img: assets/img/projects/fujitsu/Figure_1.jpg
-importance: 1
+importance: 2
 category: work
 ---
 
