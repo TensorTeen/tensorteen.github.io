@@ -408,7 +408,12 @@ ninja.data = [{
             },},{id: "news-i-have-joined-sarvam-ai-as-an-intern-working-on-building-ai-agents-for-multi-lingual-healthcare-use-case",
           title: 'I have joined Sarvam.AI as an intern working on building AI agents for...',
           description: "",
-          section: "News",},{id: "news-i-ve-been-awarded-the-mrs-jayashree-ananth-prize-for-achieving-the-best-academic-record",
+          section: "News",},{id: "news-i-ve-been-selected-for-the-kiran-award-2024-the-best-academic-student-by-the-indian-society-for-non-destructive-testing-isnt",
+          title: 'I’ve been selected for the Kiran Award 2024 – “The Best Academic Student”...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_5/";
+            },},{id: "news-i-ve-been-awarded-the-mrs-jayashree-ananth-prize-for-achieving-the-best-academic-record",
           title: 'I’ve been awarded the Mrs. Jayashree Ananth Prize for achieving the best academic...',
           description: "",
           section: "News",handler: () => {
