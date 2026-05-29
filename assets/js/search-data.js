@@ -481,9 +481,9 @@ ninja.data = [{
           description: "Enforcing geometric smoothness in deep learning-based inverse airfoil design using spatial gradients.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-intelligent-tool-manipulation-systems",
+          title: 'Intelligent Tool Manipulation Systems',
+          description: "RE-GAINS &amp; EnChAnT frameworks for enhanced LLM query responses",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{id: "projects-project-7",
