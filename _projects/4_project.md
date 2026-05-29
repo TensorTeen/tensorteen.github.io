@@ -2,7 +2,7 @@
 layout: page
 title: Team GeoAwareGPT
 description: Bringing Geo-Spatial Context to LLMs at the Bharatiya Antariksh Hackathon 2024
-img: assets/img/geoawaregpt/cover_image.jpg
+img: assets/img/projects/geoawaregpt/cover_image.jpg
 importance: 1
 category: fun
 related_publications: false
@@ -14,7 +14,7 @@ The central problem our thesis and project tackles is bringing geo-spatial conte
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/geoawaregpt/architecture_diagram.jpg" title="Proposed Architecture" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/geoawaregpt/architecture_diagram.jpg" title="Proposed Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -41,7 +41,7 @@ We constructed this system leveraging a mix of proprietary and Free and Open-Sou
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/geoawaregpt/tool_call_flow.jpg" title="ReAct Agent Flow" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/geoawaregpt/tool_call_flow.jpg" title="ReAct Agent Flow" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
