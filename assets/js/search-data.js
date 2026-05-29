@@ -431,8 +431,8 @@ ninja.data = [{
             },},{id: "news-our-paper-indicasa-a-dataset-and-bias-evaluation-framework-in-llms-using-contrastive-embedding-similarity-in-the-indian-context-has-been-accepted-at-aaai-acm-conference-on-ai-ethics-and-society-aies-2025",
           title: 'Our paper “IndiCASA: A Dataset and Bias Evaluation Framework in LLMs Using Contrastive...',
           description: "",
-          section: "News",},{id: "news-",
-          title: '',
+          section: "News",},{id: "news-our-paper-quot-towards-sustainable-scientific-machine-learning-fast-and-interpretable-pde-solvers-via-rbf-pielm-quot-has-been-accepted-at-acm-cods-2025-as-oral-and-archival-work",
+          title: 'Our paper &amp;quot;Towards Sustainable Scientific Machine Learning Fast and Interpretable PDE Solvers via...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_7/";
