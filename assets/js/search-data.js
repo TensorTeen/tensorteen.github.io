@@ -405,10 +405,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-i-have-joined-sarvam-ai-as-an-intern-working-on-building-ai-agents-for-multi-lingual-healthcare-use-case",
+            },},{id: "news-i-have-joined-sarvam-ai-as-an-intern-working-on-building-ai-agents-for-multi-lingual-healthcare-use-case",
           title: 'I have joined Sarvam.AI as an intern working on building AI agents for...',
           description: "",
           section: "News",},{id: "news-i-have-joined-adobe-media-and-data-science-research-lab-as-an-intern-working-on-building-multi-agent-collaborative-rl-framework-for-video-tasks",
@@ -416,7 +413,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "projects-project-1",
+            },},{id: "news-our-paper-indicasa-a-dataset-and-bias-evaluation-framework-in-llms-using-contrastive-embedding-similarity-in-the-indian-context-has-been-accepted-at-aaai-acm-conference-on-ai-ethics-and-society-aies-2025",
+          title: 'Our paper “IndiCASA: A Dataset and Bias Evaluation Framework in LLMs Using Contrastive...',
+          description: "",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
