@@ -3,7 +3,7 @@ layout: page
 title: IndiCASA
 description: A Dataset and Bias Evaluation Framework in LLMs Using Contrastive Embedding Similarity in the Indian Context
 img: assets/img/projects/indicasa/indicasa_fig2.jpg
-importance: 2
+importance: 4
 category: work
 related_publications: true
 ---
