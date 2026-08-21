@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-08-03'
+  last_updated: '2026-08-21'
 papers:
   4BTCJsAAAAAJ:9yKSN-GCB0IC:
     citations: 0
     title: Towards Fast Option Pricing PDE Solvers Powered by PIELM
     year: '2025'
   4BTCJsAAAAAJ:IjCSPb-OGe4C:
-    citations: 2
+    citations: 4
     title: 'IndiCASA: A Dataset and Bias Evaluation Framework for LLMs Using Contrastive Embedding Similarity in the Indian Context'
     year: '2025'
   4BTCJsAAAAAJ:W7OEmFMy1HYC:
