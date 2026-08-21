@@ -442,7 +442,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_10/";
-            },},{id: "projects-gmm-pielm",
+            },},{id: "news-our-patent-titled-data-generation-techniques-for-tool-based-llm-applications-patent-no-599529-has-been-granted-by-the-indian-patent-office",
+          title: 'Our patent titled DATA GENERATION TECHNIQUES FOR TOOL-BASED LLM APPLICATIONS (Patent No. 599529)...',
+          description: "",
+          section: "News",},{id: "projects-gmm-pielm",
           title: 'GMM-PIELM',
           description: "Accelerating Stiff PDE Resolution via Gaussian Mixture Model based Physics-Informed Extreme Learning Machines (PI-ELMs)",
           section: "Projects",handler: () => {
