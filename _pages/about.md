@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Incoming PhD Student at <a href='https://mit.edu/'> Massachusetts Institute of Technology </a>.
+subtitle: PhD Student at <a href='https://mit.edu/'> Massachusetts Institute of Technology </a>.
 
 profile:
   align: right
@@ -24,8 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Akshay, a Final-year Bachelors student majoring in Mechanical
-Engineering and Minoring in AI at the [Indian Institute of Technology Madras (IITM)](https://iitm.ac.in) and an incoming PhD Student at [Massachusetts Institute of Technology](https://mit.edu/) in the CCSE-MechE joint programme. 
+Hi, I'm Akshay, an incoming PhD student in the joint CCSE-MechE program at the [Massachusetts Institute of Technology](https://mit.edu/) , where I work with [Prof. Faez Ahmed](https://meche.mit.edu/people/faculty/faez@mit.edu) in the Design Computation and Digital Engineering (DeCoDE) Lab.
 
 **Research Interests**: Vast majority of computational power in the world is used to understand, design and optimize complex scientific and engineering systems like cars, airplanes etc. My research goal is to use AI to accelerate and democratize this computation to (1) achieve similar accuracy with much less compute, (2) solve problems that were computationally impossible, and (3) democratize the usage of these tools by reducing the knowledge barrier required for it's effective usage. 
 
