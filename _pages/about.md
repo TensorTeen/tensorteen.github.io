@@ -24,6 +24,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+**I’ll be at [NeurIPS 2026](https://neurips.cc/Conferences/2026).** If you’re attending, I’d love to connect.
+
 Hi, I'm Akshay, an incoming PhD student in the joint CCSE-MechE program at the [Massachusetts Institute of Technology](https://mit.edu/) , where I work with [Prof. Faez Ahmed](https://meche.mit.edu/people/faculty/faez@mit.edu) in the Design Computation and Digital Engineering (DeCoDE) Lab.
 
 **Research Interests**: My goal is to use AI to make engineering simulation and design faster, expand the range of problems we can solve, and make these tools accessible to more people. I'm interested in building AI systems that can reason about the physical world, test their ideas through experiments, and improve how they solve problems over time. My current work explores this in robotics and mechanical design, where agents can use physical experiments to improve their simulations and use those simulations to design better hardware. More broadly, I want to understand how AI can help engineers investigate systems that are difficult to model and explore designs that would otherwise be too costly to test.
