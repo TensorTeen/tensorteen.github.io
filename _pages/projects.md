@@ -154,7 +154,7 @@ _styles: |
     </a>
   {% endif %}
 
-  {% for category in category_ids %}
+{% for category in category_ids %}
     {% assign projects = site.projects | where: 'category', category | sort: 'importance' %}
     <section id="{{ category }}" aria-labelledby="projects-{{ category }}-title">
       <h2 class="project-section-title" id="projects-{{ category }}-title">{{ category_titles[forloop.index0] }}</h2>
@@ -182,5 +182,5 @@ _styles: |
         {% endfor %}
       </ul>
     </section>
-  {% endfor %}
+{% endfor %}
 </div>
