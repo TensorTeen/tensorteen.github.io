@@ -17,8 +17,8 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+          title: "Projects",
+          description: "Research and experiments in robotics, engineering simulation, and applied AI.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -489,6 +489,11 @@ ninja.data = [{
           description: "A Dataset and Bias Evaluation Framework in LLMs Using Contrastive Embedding Similarity in the Indian Context",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
+            },},{id: "projects-robobuilder",
+          title: 'RoboBuilder',
+          description: "A benchmark for AI agents that design robot hardware and control programs, then improve their designs using video from physical tests.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/robobuilder/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
