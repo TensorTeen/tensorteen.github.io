@@ -15,9 +15,9 @@ MIT DeCoDE Lab
 [Paper](https://arxiv.org/abs/2611.23855) · [Code](https://github.com/ghadinehme/RoboBuilder) · [Dataset](https://huggingface.co/datasets/DeCoDELab/RoboBuilder) · [Interactive demo](https://ghadinehme.com/robobuilder.github.io/)
 
 <figure class="my-4">
-  <img class="img-fluid rounded" src="{{ page.img | escape }}" alt="A RoboBuilder robot on a physical stair obstacle, with its simulated run inset." loading="lazy" decoding="async">
+  <img class="img-fluid rounded" src="{{ page.img | escape }}" alt="A small wheeled RoboBuilder robot beside a stair obstacle on a physical test course." loading="lazy" decoding="async">
   <figcaption class="caption">
-    A physical obstacle test and its simulation. Image from the
+    A physical obstacle test. Image from the
     <a href="https://ghadinehme.com/robobuilder.github.io/">RoboBuilder project site</a>
     (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>).
   </figcaption>
